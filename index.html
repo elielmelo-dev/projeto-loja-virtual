@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Virtual</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        
+        <div class="nav">
+            
+            <a href="#" id="logo">Início</a>
+            
+            <div class="nav-menu">  
+                    <i class='bx bx-search' id="search-icon"></i>
+                    <i class='bx bx-cart-alt' id="cart-icon"></i>
+                    <i class='bx bx-user' id="user-icon"></i>
+            </div>
+                   
+                    <!--carrinho -->
+                <div class="cart">
+                    <h2 class="cart-title">Your Cart</h2>
+                    <!--Conteúdo do carrinho-->
+                    <div class="cart-content">
+
+                </div>
+                    <!--Total-->
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">R$0</div>
+                </div>
+                    <!--Botao de Comprar-->
+                    <button type="button" class="btn-buy">Compre Agora</button>
+                    <!--Fechar carrinho-->
+                    <i class='bx bx-x' id="close-cart"></i>
+                </div> 
+                
+        </div>
+        <div class="search-box">
+            <input type="search" name="" id="" placeholder="Procure aqui...">
+        </div>
+        <div class="user">
+            <h2>Entre Agora</h2>
+            <input type="email" placeholder="Seu e-mail...">
+            <input type="password" name="" id="" placeholder="Sua senha...">
+            <input type="submit" value="Login" class="login-btn">
+            <p>Esqueci minha senha: <a href="#">Recuperar Senha</a></p>
+            <p>Não tenho conta: <a href="#">Criar conta</a></p>
+        </div>
+    </header>
+
+    <!--Loja -->
+    <section class="shop container">
+        <h2 class="section-title">Mega Loja Informática</h2>
+            <p>Encontre aqui os melhores produtos com os melhores preços!</p>
+        <div class="shop-content">
+            <!--Conteudo da Loja -->
+            <!--Caixa 1-->
+            <div class="product-box">
+                <img src="img/product1.jpg" alt="" class="product-img">
+                <h2 class="product-title">Nome do produto 1</h2>
+                <span class="price">R$25</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!--Caixa 2-->
+            <div class="product-box">
+                <img src="img/product1.jpg" alt="" class="product-img">
+                <h2 class="product-title">Nome do produto 2</h2>
+                <span class="price">R$100</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!--Caixa 3-->
+            <div class="product-box">
+                <img src="img/product1.jpg" alt="" class="product-img">
+                <h2 class="product-title">Nome do produto 3</h2>
+                <span class="price">R$45</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!--Caixa 4-->
+            <div class="product-box">
+                <img src="img/product1.jpg" alt="" class="product-img">
+                <h2 class="product-title">Nome do produto 4</h2>
+                <span class="price">R$24.04</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!--Caixa 5-->
+            <div class="product-box">
+                <img src="img/product1.jpg" alt="" class="product-img">
+                <h2 class="product-title">Nome do produto 5</h2>
+                <span class="price">R$50</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!--Caixa 6-->
+            <div class="product-box">
+                <img src="img/product1.jpg" alt="" class="product-img">
+                <h2 class="product-title">Nome do produto 6</h2>
+                <span class="price">R$50</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!--Caixa 7-->
+            <div class="product-box">
+                <img src="img/product1.jpg" alt="" class="product-img">
+                <h2 class="product-title">Nome do produto 7</h2>
+                <span class="price">R$70</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!--Caixa 8-->
+            <div class="product-box">
+                <img src="img/product1.jpg" alt="" class="product-img">
+                <h2 class="product-title">Nome do produto 8</h2>
+                <span class="price">R$45</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+
+        </div>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <div class="about">
+                <h2>Sobre nós</h2>
+                <p>Seguimos como líder de vendas desde 2010. <br>
+                    Somos referência em qualidade e agilidade nas entregas.
+                </p>
+                <i class='bx bxl-whatsapp' id="whats-icon"></i>
+                <i class='bx bxl-facebook-square' id="face-icon"></i>
+                <i class='bx bxl-twitter' id="twitter-icon"></i>
+                <i class='bx bxl-youtube' id="youTube-icon"></i>
+            </div>
+            <div class="adress">
+                <h2>Onde estamos</h2>
+                <i class='bx bx-home-alt-2' id="location-icon">: Av. Informática N°01</i><br>
+                <i class='bx bx-phone' id="phone-icon">: (11) 99999-9999</i><br>
+                <i class='bx bx-envelope' id="mail-icon">: megaloja@informatica.com.br</i>
+            </div>
+            <div class="contact">
+                <h2>Contato</h2>
+                <form action="#" class="forms">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email"required><br>
+                    <label for="message">Mensagem</label>
+                    <textarea name="message" id="message" required></textarea><br>
+                    <button type="submit" id="send-button">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <script src="script.js"></script>  
+</body>
+</html>
