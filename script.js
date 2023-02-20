@@ -50,10 +50,10 @@ function ready(){
 
 // Botão de comprar alerta
 
-function buyButtonClicked(){
+function buyButtonClicked() {
     alert("Seu pedido foi enviado com sucesso!");
     var cartContent = document.getElementsByClassName("cart-content")[0];
-    while (cartContent.hasChildNodas()) {
+    while (cartContent.hasChildNodes()) {
         cartContent.removeChild(cartContent.firstChild);
     }
     updateTotal1();
