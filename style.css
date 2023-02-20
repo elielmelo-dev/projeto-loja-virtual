@@ -393,6 +393,12 @@ footer {
     flex-wrap: wrap;
     padding-top: 50px;
   }
+
+  @media (max-width: 400px){
+    footer .footer-content{
+        width: auto;
+    }
+  }
   
   .about, .adress, .contact {
     max-width: 400px;
